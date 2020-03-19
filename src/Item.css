@@ -1,0 +1,39 @@
+.Item {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./images/nicholas-ng-jhM6SfHOlFs-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Item-product {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.Item-link {
+  font-size: 26px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Item-product img {
+  width: 350px;
+  height: 450px;
+  border-radius: 5px;
+}

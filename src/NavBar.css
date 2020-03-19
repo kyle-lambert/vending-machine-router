@@ -1,0 +1,25 @@
+.NavBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavLink {
+  background-color: teal;
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.NavLink-active {
+  background-color: rgb(1, 92, 92);
+}
